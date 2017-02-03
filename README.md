@@ -1,6 +1,16 @@
 [![npm](https://img.shields.io/npm/v/vuetable-2.svg)](https://www.npmjs.com/package/vuetable-2)
 [![npm](https://img.shields.io/npm/l/vuetable-2.svg?maxAge=2592000)]()
 
+Changes:
+
+1. Detached CustomActions.vue and DetailRow.vue from main.js into individual files;
+2. Detached PsTable.vue from index.html and main.js into one individual file, so if you have many pages, you can add them into /views folder like this;
+3. Added a wrapper App.vue, so you can put something like vue-router in it;
+4. Use bulma and font-awesome; 
+5. Remove semantic and jquery;
+
+
+
 # Vuetable-2 - data table simplify!
 
 ### Vuetable-2 works with Vue 2.x, vuetable is for Vue 1.x
